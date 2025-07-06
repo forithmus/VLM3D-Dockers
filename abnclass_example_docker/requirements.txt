@@ -1,0 +1,14 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+accelerate==0.21.0
+transformers==4.30.1
+pydantic==1.10.13
+numpy
+scipy
+Pillow
+scikit-image
+nibabel
+peft
+einops-exts
+boto3
+simpleitk

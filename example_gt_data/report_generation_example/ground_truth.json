@@ -1,0 +1,14 @@
+{
+  "name": "Generated reports",
+  "type": "Report generation",
+  "generated_reports": [    
+    {
+      "input_image_name": "d1aed068-b235-4b39-a17b-8feb82047d4f",
+      "report": "Findings: Trachea and both main bronchi are open. Main mediastinal vascular structures, heart contour, and size are normal. Thoracic aorta diameter is normal. No pericardial effusion-thickening was observed. Thoracic esophagus is calibrated and no significant tumoral wall thickening was detected. No pathologically enlarged lymph nodes were found in the prevascular, pre-paratracheal, subcarinal, or bilateral hilar-axillary regions. When examined in the lung parenchyma window; a few millimetric nonspecific nodules are seen in both lungs. No pleural effusion-thickening was detected. The upper abdominal organs included in the sections are normal. No space-occupying lesions were found in the liver included in the sections. Bilateral adrenal gland regions are normal and no space-occupying lesions were found. The bony structures included in the examination area are normal. Vertebral corpus heights are preserved. Impression: A few millimetric nonspecific nodules in both lungs."
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0
+  }
+}
