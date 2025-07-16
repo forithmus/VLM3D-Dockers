@@ -66,8 +66,8 @@ This repository provides Dockerized pipelines and example containers for the VLM
 
 ### Prerequisites
 
-* Docker Engine (with NVIDIA Container Toolkit for GPU support)
-* NVIDIA drivers and CUDA toolkit installed
+* Docker Engine (with NVIDIA Container Toolkit for GPU support).
+* NVIDIA drivers and CUDA toolkit installed.
 
 ### Building and Testing
 
