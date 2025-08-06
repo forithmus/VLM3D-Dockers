@@ -2,7 +2,7 @@
 
 This Docker container generates radiology reports for chest CT volumes using a two-stage pipeline: a 3D CTViT visual encoder and a LLaVA-based LLaMA3 model fine-tuned as CT-CHAT. You can use this Docker to create your own model container for submission.
 
-## Metrics
+## Models
 
 * **CTViT Visual Encoder** – patch-based 3D transformer (512‑dim codebook) that produces volume embeddings
 * **CT-CHAT Report Generator** – LLaVA LLaMA3 1.8B model fine-tuned with LoRA for radiology report synthesis
