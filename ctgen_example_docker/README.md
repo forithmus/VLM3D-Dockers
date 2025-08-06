@@ -12,13 +12,13 @@ This Docker container generates 3D CT volumes from text prompts using a two-stag
 
 Mount your prompts file to `/input/prompts.json`. The file must be a JSON array of objects with the following fields:
 ````markdown
-[
+
   {
     "input_image_name": "<filename_without_extension>",
     "report": "<text_prompt>"
   },
   ...
-]
+
 ````
 
 **Notes:**
