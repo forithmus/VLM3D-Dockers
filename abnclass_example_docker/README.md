@@ -2,7 +2,7 @@
 
 This Docker container performs abnormality-classification inference on chest CT volumes using a CTViT visual encoder, a Biomed-BERT text encoder, and an ImageLatents classifier.
 
-## Metrics
+## Models
 
 * **CTViT Visual Encoder** – patch-based 3D transformer produces volume embeddings
 * **Biomed-BERT Text Encoder** – biomedical BERT tokenizer and encoder
