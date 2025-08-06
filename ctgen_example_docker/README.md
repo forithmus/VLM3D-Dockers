@@ -1,9 +1,9 @@
-````markdown
+
 # CT Generation Pipeline Docker
 
 This Docker container generates 3D CT volumes from text prompts using a two-stage pipeline. You can use this to start creating your own model docker.
 
-## Metrics
+## Models
 
 * **Low-Resolution Generation** – MaskGIT-based transformer sampling at low spatial resolution  
 * **Super-Resolution** – diffusion-based UNet cascade to upscale low-res volumes to full resolution  
@@ -11,7 +11,7 @@ This Docker container generates 3D CT volumes from text prompts using a two-stag
 ## Input Specification
 
 Mount your prompts file to `/input/prompts.json`. The file must be a JSON array of objects with the following fields:
-
+````markdown
 ```json
 [
   {
