@@ -17,7 +17,6 @@ Mount your prompts file to `/input/prompts.json`. The file must be a JSON array 
     "input_image_name": "<filename_without_extension>",
     "report": "<text_prompt>"
   },
-  ...
 
 ````
 
