@@ -1,0 +1,25 @@
+# ───────── Web service (if you still expose FastAPI) ─────────
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# ───────── LLM / inference helpers ─────────
+torch
+accelerate>=0.25.0
+transformers==4.44.0
+peft
+einops
+einops-exts
+
+# ───────── MedSAM‑2 & image libs ─────────
+# install sam2 + MedSAM2 straight from GitHub
+totalsegmentator 
+numpy
+scipy
+pandas
+tqdm
+scikit-image
+SimpleITK        # one spelling only
+nibabel               # needed only if you read NIfTI headers directly
+boto3                 # S3 / MinIO access
+dicom2nifti==2.4.7
+blosc2
