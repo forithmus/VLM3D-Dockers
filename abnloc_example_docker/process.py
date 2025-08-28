@@ -141,7 +141,7 @@ def _idx_to_phys(x: int, y: int, z: int, itk_img: sitk.Image) -> np.ndarray:
     v = np.array([x * sx, y * sy, z * sz], dtype=float)
     return origin + direction @ v
 
-def _volume_min_corner_phys(itk_img: sitk.Image) -> np.ndarray:
+def _volume_bbox_phys(itk_img: sitk.Image) -> np.ndarray:
     """Physical coord of the volume's min corner (left–lower–posterior) after direction/origin."""
     size_x, size_y, size_z = itk_img.GetSize()
     corners_idx = [
@@ -149,7 +149,7 @@ def _volume_min_corner_phys(itk_img: sitk.Image) -> np.ndarray:
         (size_x, size_y, 0), (size_x, 0, size_z), (0, size_y, size_z), (size_x, size_y, size_z),
     ]
     corners_phys = np.stack([_idx_to_phys(x, y, z, itk_img) for (x, y, z) in corners_idx], axis=0)
-    return corners_phys.min(axis=0)
+    return corners_phys.min(axis=0), corners_phys.max(axis=0)
 
 def boxes_from_mask(mask_zyx: np.ndarray, itk_img: sitk.Image) -> List[List[float]]:
     """
@@ -159,7 +159,7 @@ def boxes_from_mask(mask_zyx: np.ndarray, itk_img: sitk.Image) -> List[List[floa
     if mask_zyx.sum() == 0:
         return []
 
-    vol_min = _volume_min_corner_phys(itk_img)
+    vol_min, vol_max = _volume_bbox_phys(itk_img)
 
     lab, n_lab = measure.label(mask_zyx.astype(np.uint8), return_num=True, connectivity=1)
     boxes: List[List[float]] = []
@@ -182,7 +182,11 @@ def boxes_from_mask(mask_zyx: np.ndarray, itk_img: sitk.Image) -> List[List[floa
         pmax = corners_phys.max(axis=0) - vol_min
 
         dx, dy, dz = (pmax - pmin).tolist()
-        x_mm, y_mm, z_mm = pmin.tolist()
+        x_mm, y_mm, _ = pmin.tolist()
+        # Flipped Z-axes; z_min = Z_total - z_max
+        z_total = vol_max[2] - vol_min[2]
+        z_max = pmax[2]
+        z_mm = z_total - z_max
         boxes.append([float(x_mm), float(y_mm), float(z_mm), float(dx), float(dy), float(dz)])
 
     return boxes
