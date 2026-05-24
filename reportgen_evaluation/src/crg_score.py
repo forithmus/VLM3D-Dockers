@@ -49,7 +49,7 @@ def main(pred_csv: Path, gt_csv: Path, out_json: Path):
     pred.set_index('AccessionNo', inplace=True)
     gt.set_index('AccessionNo',   inplace=True)
 
-    merged = pred.reindex(gt.index).astype(int)
+    merged = pred.reindex(gt.index, fill_value=0).astype(int)
 
     # --- Counters ------------------------------------------------------ #
     TP = ((merged[LABEL_COLS] == 1) & (gt[LABEL_COLS] == 1)).sum().sum()

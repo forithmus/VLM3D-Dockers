@@ -1,1 +1,9 @@
 !.gitkeep
+
+# Model weights and ground truth (not committed — fetch separately)
+*.pth
+*.bin
+reportgen_evaluation/assets/radbert_local/
+reportgen_evaluation/test/ground_truth/*.csv
+reportgen_evaluation/test/ground_truth/*.json
+reportgen_evaluation/test/predictions/*.json

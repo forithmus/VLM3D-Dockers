@@ -31,7 +31,7 @@ def evaluate(pred_csv: Path, gt_csv: Path, out_json: Path):
     pred.set_index('AccessionNo', inplace=True)
     gt.set_index('AccessionNo',   inplace=True)
 
-    pred = pred.reindex(gt.index).astype(int)
+    pred = pred.reindex(gt.index, fill_value=0).astype(int)
 
     results = {"per_pathology": []}
     precs, recs, f1s, accs = [], [], [], []

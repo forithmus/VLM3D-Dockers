@@ -1,31 +1,32 @@
 #!/usr/bin/env bash
+# Local smoke test mirroring the Forithmus eval-container runtime:
+#   /input/predictions  (RO)  <- test/predictions/
+#   /input/ground_truth (RO)  <- test/ground_truth/
+#   /output             (RW)  <- test_output/
+# Network is disabled. No GPU is needed for RadBERT BERT-base on a few cases.
 
-SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+set -euo pipefail
+HERE="$( cd "$(dirname "$0")" ; pwd -P )"
 
 ./build.sh
 
-VOLUME_SUFFIX=$(dd if=/dev/urandom bs=32 count=1 | md5sum | cut --delimiter=' ' --fields=1)
-
-MEM_LIMIT="8g"
-
-docker volume create reportgen-output-$VOLUME_SUFFIX
-# Do not change any of the parameters to docker run, these are fixed
-
-docker run --rm \
-        --gpus '"device=2"' \
-        --memory="${MEM_LIMIT}" \
-        --memory-swap="${MEM_LIMIT}" \
-        --network="none" \
-        --cap-drop="ALL" \
-        --security-opt="no-new-privileges" \
-        --shm-size="128m" \
-        --pids-limit="256" \
-        -v $SCRIPTPATH/test/:/input/ \
-        -v reportgen-output-$VOLUME_SUFFIX:/output/ \
-        reportgen
+rm -rf "$HERE/test_output"
+mkdir -p "$HERE/test_output"
+# Container runs as evaluator (uid 999); host's test_output must be writable.
+# On Forithmus, /output is mounted with correct perms by the platform.
+chmod 777 "$HERE/test_output"
 
 docker run --rm \
-        -v reportgen-output-$VOLUME_SUFFIX:/output/ \
-        python:3.10-slim cat /output/metrics.json | python -m json.tool
-        
-docker volume rm reportgen-output-$VOLUME_SUFFIX
+    --platform linux/amd64 \
+    --memory=8g --memory-swap=8g \
+    --network=none \
+    --cap-drop=ALL --security-opt=no-new-privileges \
+    --shm-size=128m --pids-limit=256 \
+    -v "$HERE/test/predictions":/input/predictions:ro \
+    -v "$HERE/test/ground_truth":/input/ground_truth:ro \
+    -v "$HERE/test_output":/output \
+    vlm3d-reportgen-eval:1.0
+
+echo
+echo "==== /output/metrics.json ===="
+python3 -m json.tool "$HERE/test_output/metrics.json"

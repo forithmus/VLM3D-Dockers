@@ -1,7 +1,7 @@
 import random
-import nltk
-from nltk.tokenize import sent_tokenize
-#nltk.download('punkt')
+# nltk is only needed at training time. Import lazily so this module can be
+# imported (transitively, via dataset.py) inside the eval container without
+# nltk being installed.
 
 class TextAugment():
     @staticmethod
@@ -43,6 +43,7 @@ class TextAugment():
             return text
 
         else:
+            from nltk.tokenize import sent_tokenize  # lazy: only needed when augmenting
             sentences = sent_tokenize(text)
             r = random.uniform(0, 1)
             #print(r)

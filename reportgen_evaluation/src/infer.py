@@ -61,7 +61,11 @@ def run_inference(json_path: Path, model_path: Path, out_csv: Path):
 
     # ------------ Model -------------------------------------------------- #
     model = RadBertClassifier(n_classes=len(label_cols))
-    model.load_state_dict(torch.load(model_path, map_location="cpu"))
+    state = torch.load(model_path, map_location="cpu")
+    # Strip transformers-version-incompatible buffers (older transformers saved
+    # `position_ids` as a persistent buffer; newer versions removed it).
+    state = {k: v for k, v in state.items() if not k.endswith("position_ids")}
+    model.load_state_dict(state, strict=True)
     model = model.to(device).eval()
 
     trainer = ModelTrainer(model,

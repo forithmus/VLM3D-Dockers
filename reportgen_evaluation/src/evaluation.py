@@ -1,14 +1,25 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Master evaluation script – now also computes CRG metrics
+Master evaluation script for the VLM3D report-generation track, ported to
+the Forithmus eval-container contract.
+
+Forithmus mounts BOTH participant predictions and host ground truth from
+/input/ at runtime. Ground truth is NOT baked into the image (unlike the
+grand-challenge.org image this was derived from).
+
+/input/
+  predictions/   - first *.json here is the participant submission
+  ground_truth/  - ground_truth.json + ground_truth.csv
+/output/
+  metrics.json   - merged scores (generation + classification + crg)
 """
 
 import json, subprocess, sys
 from pathlib import Path
 
-INPUT_DIR   = Path("/input")
-GT_DIR      = Path("/opt/app/ground-truth")
+INPUT_DIR   = Path("/input/predictions")
+GT_DIR      = Path("/input/ground_truth")
 OUTPUT_DIR  = Path("/output")
 CODE_DIR    = Path("/opt/app")
 
@@ -30,7 +41,7 @@ FINAL_JSON = OUTPUT_DIR / "metrics.json"
 def find_pred_json() -> Path:
     files = sorted(INPUT_DIR.glob("*.json"))
     if not files:
-        raise FileNotFoundError("No *.json file found in /input/")
+        raise FileNotFoundError(f"No *.json submission found in {INPUT_DIR}/")
     return files[0]
 
 
