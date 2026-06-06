@@ -1,0 +1,296 @@
+[
+  {
+    "pk": "7f089123-e6b0-49fb-b044-b7f18c51c344",
+    "url": "https://vlm3dchallenge.com/algorithms/ct-chat-ct-rate-team/jobs/7f089123-e6b0-49fb-b044-b7f18c51c344/",
+    "inputs": [
+      {
+        "pk": 7,
+        "file": null,
+        "image": {
+          "pk": "70a7d410-7d69-4cd8-b990-6a6d8f3c1d52",
+          "name": "1.2.840.113704.1.111.10004.1691060324.6_B_Toraks.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 8,
+        "file": null,
+        "image": {
+          "pk": "eeb06ae8-0fc7-4b8c-a501-861f1ecf4a4e",
+          "name": "1.2.840.113704.1.111.10004.1691060358.10_YA_HRCT.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 9,
+        "file": null,
+        "image": {
+          "pk": "d7f83697-33a5-467a-a0ac-bde3a6632cbe",
+          "name": "1.2.840.113704.1.111.10020.1691741592.6_B_Toraks.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 10,
+        "file": null,
+        "image": {
+          "pk": "65f43b26-34fd-447a-9462-faf4d7b139ed",
+          "name": "1.2.840.113704.1.111.10020.1691741625.10_YA_HRCT.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 11,
+        "file": null,
+        "image": {
+          "pk": "d6fba6bb-0585-46df-ac4e-7e8b82ef1288",
+          "name": "1.2.840.113704.1.111.10024.1698824654.6_B_Toraks.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 12,
+        "file": null,
+        "image": {
+          "pk": "df3743d4-6034-401f-80cb-d95ea74ee7a3",
+          "name": "1.2.840.113704.1.111.10024.1698824703.10_YA_HRCT.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 13,
+        "file": null,
+        "image": {
+          "pk": "9ec28230-c131-4aad-85dd-04fe45c00bac",
+          "name": "1.2.840.113704.1.111.10056.1701167370.6_B_Toraks.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 14,
+        "file": null,
+        "image": {
+          "pk": "32c1cb65-2c5d-4e14-87f2-0698e7dfb6aa",
+          "name": "1.2.840.113704.1.111.10056.1701167417.10_YA_HRCT.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 15,
+        "file": null,
+        "image": {
+          "pk": "a834ce31-341e-4a23-b3ef-78593fc6af76",
+          "name": "1.2.840.113704.1.111.10104.1694595141.6_B_Toraks.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      },
+      {
+        "pk": 16,
+        "file": null,
+        "image": {
+          "pk": "a984f422-be66-4a47-9274-c762bc11160e",
+          "name": "1.2.840.113704.1.111.10104.1694595166.10_YA_HRCT.nii.gz"
+        },
+        "value": null,
+        "interface": {
+          "pk": 1,
+          "kind": "Image",
+          "slug": "generic-medical-image",
+          "title": "Generic Medical Image",
+          "super_kind": "Image",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "status": "Succeeded",
+    "api_url": "https://vlm3dchallenge.com/api/v1/algorithms/jobs/7f089123-e6b0-49fb-b044-b7f18c51c344/",
+    "outputs": [
+      {
+        "pk": 2119,
+        "file": null,
+        "image": null,
+        "value": {
+          "name": "Generated reports",
+          "type": "Report generation",
+          "version": {
+            "major": 1,
+            "minor": 0
+          },
+          "generated_reports": [
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are sometimes linear atelectasis in both lungs. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "32c1cb65-2c5d-4e14-87f2-0698e7dfb6aa"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are linear atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "65f43b26-34fd-447a-9462-faf4d7b139ed"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are linear atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "70a7d410-7d69-4cd8-b990-6a6d8f3c1d52"
+            },
+            {
+              "report": "Findings: Trachea, both main bronchi are open. Mediastinal main vascular structures, heart contour, size are normal. Thoracic aorta diameter is normal. Pericardial effusion-thickening was not observed. Thoracic esophagus calibration was normal and no significant tumoral wall thickening was detected. No enlarged lymph nodes in prevascular, pre-paratracheal, subcarinal or bilateral hilar-axillary pathological dimensions were detected. When examined in the lung parenchyma window; There are thickenings of the bronchial walls, more prominent in the central part of both lungs. There are minimal emphysematous changes in the upper lobes of both lungs. There are millimetric nonspecific nodules in both lungs. Upper abdominal organs included in the sections are normal. No space-occupying lesion was detected in the liver that entered the cross-sectional area. Bilateral adrenal glands were normal and no space-occupying lesion was detected. Bone structures in the study area are natural. Vertebral corpus heights are preserved. Impression:  Thickening of the bronchial wall in both lungs, more prominent in the central part, minimal emphysematous changes in the upper lobes of both lungs, millimetric nonspecific nodules in both lungs.",
+              "input_image_name": "9ec28230-c131-4aad-85dd-04fe45c00bac"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "a834ce31-341e-4a23-b3ef-78593fc6af76"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "a984f422-be66-4a47-9274-c762bc11160e"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "d6fba6bb-0585-46df-ac4e-7e8b82ef1288"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are linear atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "d7f83697-33a5-467a-a0ac-bde3a6632cbe"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression: Emphysematous changes in both lungs. Atelectasis in both lungs. Millimetric nodules in both lungs. Atherosclerotic changes in the aorta and coronary arteries. Hiatal hernia",
+              "input_image_name": "df3743d4-6034-401f-80cb-d95ea74ee7a3"
+            },
+            {
+              "report": "Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.",
+              "input_image_name": "eeb06ae8-0fc7-4b8c-a501-861f1ecf4a4e"
+            }
+          ]
+        },
+        "interface": {
+          "pk": 3,
+          "kind": "Anything",
+          "slug": "results-json-file",
+          "title": "Results JSON File",
+          "super_kind": "Value",
+          "description": "",
+          "default_value": null,
+          "look_up_table": null,
+          "relative_path": "results.json",
+          "overlay_segments": []
+        }
+      }
+    ],
+    "started_at": "2025-07-01T02:48:41.211072Z",
+    "completed_at": "2025-07-01T02:50:50.854083Z",
+    "view_content": {},
+    "algorithm_image": "Algorithm Image 261fcc7f (SHA256: e9ed8557)",
+    "hanging_protocol": null,
+    "rendered_result_text": "<pre>{\n  \"generated_reports\": [\n    {\n      \"input_image_name\": \"32c1cb65-2c5d-4e14-87f2-0698e7dfb6aa\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are sometimes linear atelectasis in both lungs. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    },\n    {\n      \"input_image_name\": \"65f43b26-34fd-447a-9462-faf4d7b139ed\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are linear atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    },\n    {\n      \"input_image_name\": \"70a7d410-7d69-4cd8-b990-6a6d8f3c1d52\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are linear atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    },\n    {\n      \"input_image_name\": \"9ec28230-c131-4aad-85dd-04fe45c00bac\",\n      \"report\": \"Findings: Trachea, both main bronchi are open. Mediastinal main vascular structures, heart contour, size are normal. Thoracic aorta diameter is normal. Pericardial effusion-thickening was not observed. Thoracic esophagus calibration was normal and no significant tumoral wall thickening was detected. No enlarged lymph nodes in prevascular, pre-paratracheal, subcarinal or bilateral hilar-axillary pathological dimensions were detected. When examined in the lung parenchyma window; There are thickenings of the bronchial walls, more prominent in the central part of both lungs. There are minimal emphysematous changes in the upper lobes of both lungs. There are millimetric nonspecific nodules in both lungs. Upper abdominal organs included in the sections are normal. No space-occupying lesion was detected in the liver that entered the cross-sectional area. Bilateral adrenal glands were normal and no space-occupying lesion was detected. Bone structures in the study area are natural. Vertebral corpus heights are preserved. Impression:  Thickening of the bronchial wall in both lungs, more prominent in the central part, minimal emphysematous changes in the upper lobes of both lungs, millimetric nonspecific nodules in both lungs.\"\n    },\n    {\n      \"input_image_name\": \"a834ce31-341e-4a23-b3ef-78593fc6af76\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    },\n    {\n      \"input_image_name\": \"a984f422-be66-4a47-9274-c762bc11160e\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    },\n    {\n      \"input_image_name\": \"d6fba6bb-0585-46df-ac4e-7e8b82ef1288\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    },\n    {\n      \"input_image_name\": \"d7f83697-33a5-467a-a0ac-bde3a6632cbe\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are linear atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    },\n    {\n      \"input_image_name\": \"df3743d4-6034-401f-80cb-d95ea74ee7a3\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression: Emphysematous changes in both lungs. Atelectasis in both lungs. Millimetric nodules in both lungs. Atherosclerotic changes in the aorta and coronary arteries. Hiatal hernia\"\n    },\n    {\n      \"input_image_name\": \"eeb06ae8-0fc7-4b8c-a501-861f1ecf4a4e\",\n      \"report\": \"Findings: Trachea and both main bronchi are open. No occlusive pathology was detected in the trachea and both main bronchi. There are emphysematous changes in both lungs. There are atelectasis in the right lung middle lobe medial segment and left lung upper lobe lingular segment. There are millimetric nonspecific nodules in both lungs. No mass or infiltrative lesion was detected in both lungs. Mediastinal structures cannot be evaluated optimally because contrast material is not given. As far as can be observed: Heart contour and size are normal. No pleural or pericardial effusion was detected. There are atheromatous plaques in the aorta and coronary arteries. The widths of the mediastinal main vascular structures are normal. There are no pathologically enlarged lymph nodes in the mediastinum and hilar regions. There is a sliding type hiatal hernia at the lower end of the esophagus. No upper abdominal free fluid-collection or pathologically enlarged lymph nodes were observed in the sections. No fractures or lytic-destructive lesions were detected in the bone structures within the sections. Impression:  Emphysematous changes in both lungs.  Atelectasis in both lungs.  Millimetric nodules in both lungs.  Atherosclerotic changes in the aorta and coronary arteries.  Hiatal hernia.\"\n    }\n  ],\n  \"name\": \"Generated reports\",\n  \"type\": \"Report generation\",\n  \"version\": {\n    \"major\": 1,\n    \"minor\": 0\n  }\n}</pre>",
+    "optional_hanging_protocols": []
+  }
+]

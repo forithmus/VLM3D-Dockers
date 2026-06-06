@@ -1,0 +1,36 @@
+# BTB3D submission container — pinned, T4-compatible.
+# - No flash-attn (T4 sm_75 < required sm_80)
+# - No deepspeed (training-only)
+# - No moviepy/av/scikit-learn/tensorboard (training-only, not used at inference)
+#
+# Torch + torchvision must come from the cu121 index — installed in two `pip install`
+# steps in the Dockerfile so this file stays a plain requirements list.
+
+# core ML
+transformers==4.46.2
+tokenizers==0.20.3
+accelerate==1.0.0
+peft==0.19.1
+bitsandbytes==0.49.2          # 4/8-bit quantization (BTB3D_QUANT env var)
+safetensors==0.4.5
+huggingface-hub==0.26.2
+sentencepiece==0.2.1
+protobuf==7.35.0
+
+# encoder-decoder deps
+omegaconf==2.3.0
+einops==0.8.0
+einops-exts==0.0.4
+beartype==0.19.0
+
+# medical/image
+nibabel==5.4.2
+pandas==2.3.3
+scipy==1.15.3
+numpy==2.2.6                  # numpy 2.x verified working with both halves
+pillow==10.4.0
+
+# misc
+tqdm==4.67.3
+regex==2026.5.9
+PyYAML==6.0.2

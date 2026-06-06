@@ -1,0 +1,62 @@
+[
+    {
+        "image": "valid_1_a_1.nii_embedded.npz",
+        "conversations_out": [
+            {
+                "id": "valid_1_a_1",
+                "question": "<image>\n<report_generation>",
+                "answer": "Findings: CTO is normal. Mediastinal main vascular structures, heart contour, size are normal. Thoracic aorta diameter is normal. Pericardial effusion-thickening was not observed. There is thymic tissue in the anterior mediastinum with trigonal configuration and hypodense areas compatible with fatty involution without mass effect. Thoracic esophageal calibration was normal and no significant tumoral wall thickening was detected. No lymph node with pathological size and configuration was detected at the mediastinal and hilar level. When examined in the lung parenchyma window; Aeration of both lung parenchyma is normal and no nodular or infiltrative lesion is detected in the lung parenchyma. No bilateral pleural effusion or pneumothorax was detected. Upper abdominal organs included in the sections are normal. No space-occupying lesion was detected in the liver that entered the cross-sectional area. There is a decrease in density consistent with hepatosteatosis in the liver. Bilateral adrenal glands were normal and no space-occupying lesion was detected. Surrounding soft tissue plans are natural. Bone structures in the study area are natural. Vertebral corpus heights are preserved. Impression: No finding compatible with pneumonia was detected.<|eot_id|>"
+            }
+        ]
+    },
+    {
+        "image": "valid_1_a_2.nii_embedded.npz",
+        "conversations_out": [
+            {
+                "id": "valid_1_a_2",
+                "question": "<image>\n<report_generation>",
+                "answer": "Findings: CTO is normal. Calibration of mediastinal major vascular structures is natural. Pericardial effusion-thickening was not observed. Thoracic esophageal calibration was normal and no significant tumoral wall thickening was detected. No lymph node with pathological size and configuration was detected in the mediastinum and hilar level. When examined in the lung parenchyma window; trachea and both main bronchi are open. In the left lung, the upper lobe apicoposterior segment and the lingular segment have sequelae changes. There is a 5 mm diameter nodule in the left lung lower lobe laterobasal segment. Sequelae changes are observed in the inferior lingular segment. There is a 4x3 mm nodule in the lateral subpleural area in the anterior segment of the left lung upper lobe. There is a 4 mm diameter subpleural nodule in the right lung lower lobe laterobasal segment. A nodule with a diameter of 3 mm is observed in the anterior segment lateral subpleural area. There is a 3x2 mm nodule in the posterior segment of the right lung upper lobe. There is a 4x3 mm nodule in the dorsal subpleural area of the right lung upper lobe posterior segment. In the upper abdominal organs included in the sections, a decrease in density consistent with hepatosteatosis is observed in the liver. Degenerative changes are observed in the bone structure entering the examination area. A possible sequel view is observed at the level of the first rib on the right. Impression: No findings consistent with pneumonia were detected.  Nonspecific millimetric nodules in both lungs<|eot_id|>"
+            }
+        ]
+    },
+    {
+        "image": "valid_2_a_1.nii_embedded.npz",
+        "conversations_out": [
+            {
+                "id": "valid_2_a_1",
+                "question": "<image>\n<report_generation>",
+                "answer": "Findings: Trachea, both main bronchi are open. No occlusive pathology was detected in the lumen of the trachea and both main bronchi. The mediastinum could not be evaluated optimally in the non-contrast examination. As far as can be seen; Mediastinal main vascular structures, heart contour, size are normal. Thoracic aorta diameter is normal. Pericardial effusion-thickening was not observed. Thoracic esophagus calibration was normal and no significant tumoral wall thickening was detected. No enlarged lymph nodes in prevascular, pre-paratracheal, subcarinal or bilateral hilar-axillary pathological dimensions were detected. When examined in the lung parenchyma window; Passive atelectatic changes were observed in the right lung middle lobe medial and left lung inferior lingular segment. Pleuroparenchymal fibroatelectasis sequelae changes were observed in the left lung upper lobe inferior lingular segment. Apart from this, no mass lesion-active infiltration with distinguishable borders was detected in both lungs. When the upper abdominal organs included in the sections were evaluated; Calculus images were observed in the gallbladder lumen. Liver parenchyma density is diffusely decreased, consistent with hepatosteatosis. Bilateral adrenal glands were normal and no space-occupying lesion was detected. Minimal degenerative changes were observed in the bone structures in the examination area. Impression: Passive atelectatic changes in right lung middle lobe medial and left lung inferior lingular segment. Pleuroparenchymal fibroatelectasis sequelae change in left lung upper lobe inferior lingular segment.  Hepatosteatosis.  Cholelithiasis. Minimal degenerative changes in bone structures.<|eot_id|>"
+            }
+        ]
+    },
+    {
+        "image": "valid_2_a_2.nii_embedded.npz",
+        "conversations_out": [
+            {
+                "id": "valid_2_a_2",
+                "question": "<image>\n<report_generation>",
+                "answer": "Findings: Trachea and main bronchi are open. No pathological lymph node was detected in the mediastinum. The heart and mediastinal vascular structures have a natural appearance. Esophagus is within normal limits. Pleural effusion-thickening was not detected in both hemithorax. In the evaluation of both lung parenchyma; No suspicious mass or infiltration was detected in both lungs. There are millimetric non-specific nodules in the bilateral lung. In the sections passing through the upper part of the abdomen, the bilateral adrenal glands appear natural. No significant pathology was detected in the abdominal sections. No obvious pathology was detected in bone structures. Impression: No signs of infection were detected in the lungs. However, it should be known that CT may be false negative in the first few days. Clinical and laboratory evaluation will be appropriate.<|eot_id|>"
+            }
+        ]
+    },
+    {
+        "image": "valid_3_a_1.nii_embedded.npz",
+        "conversations_out": [
+            {
+                "id": "valid_3_a_1",
+                "question": "<image>\n<report_generation>",
+                "answer": "Findings: Mediastinal structures were considered suboptimal when the examination was unenhanced. As far as can be seen; Trachea and lumen of both main bronchi are open. No occlusive pathology was detected in the trachea and lumen of both main bronchi. Calibration of thoracic main vascular structures is natural. No dilatation was detected in the thoracic aorta. Heart contour size is natural. Pericardial thickening-effusion was not detected. Thoracic esophagus calibration was normal and no significant pathological wall thickening was detected. Sliding type hiatal hernia was observed. No lymph node was detected in mediastinal and bilateral hilar pathological size and appearance. When examined in the lung parenchyma window; 1 cm diameter focal nonspecific ground glass density increase was observed in the posterobasal segment of the lower lobe of the right lung. In addition, there are minimal ground glass density increases in the right lung lower lobe superior segment and posterobasal segment. Bilateral pleural thickening-effusion was not detected. Liver parenchyma density decreased diffusely in the upper abdominal sections in the study area in line with the adiposity. Degenerative changes were observed in bone structures. No lytic-destructive lesion was detected. Impression: Focal nonspecific ground glass density increase in the posterobasal segment of the lower lobe of the right lung, radiological findings are nonspecific. Clinical and laboratory correlation is recommended.<|eot_id|>"
+            }
+        ]
+    },
+    {
+        "image": "valid_3_a_2.nii_embedded.npz",
+        "conversations_out": [
+            {
+                "id": "valid_3_a_2",
+                "question": "<image>\n<report_generation>",
+                "answer": "Findings: Mediastinal structures were evaluated as suboptimal since the examination was unenhanced. As far as can be seen; Trachea and lumen of both main bronchi are open. No occlusive pathology was detected in the trachea and lumen of both main bronchi. Calibration of thoracic main vascular structures is natural. No dilatation was detected in the thoracic aorta. Heart contour size is natural. Pericardial thickening-effusion was not detected. Thoracic esophagus calibration was normal and no significant pathological wall thickening was detected. No lymph node was detected in mediastinal and bilateral hilar pathological size and appearance. When examined in the lung parenchyma window; bilateral minimal peribronchial thickenings and mild bronchiectatic changes prominent in the center were observed. No mass nodule-infiltration was detected in both lung parenchyma. Pleural thickening-effusion was not detected. In the upper abdominal sections within the examination area, liver parenchyma density was diffusely decreased in line with the adiposity. No lytic-destructive lesion was detected in bone structures. Impression: Bilateral minimal peribronchial thickenings, mild bronchiectatic changes.<|eot_id|>"
+            }
+        ]
+    }
+]
