@@ -22,6 +22,7 @@ MR-RATE tracks (brain MRI, under `mr_challenges/`):
 | ------------ | ------------------------------- | ----------------------------------------------------------- |
 | mr abnclass  | `mr-abnormality-classification` | 32-label brain MRI abnormality classification               |
 | mr reportgen | `mr-report-generation`          | Free-text radiology report generation from a brain MR study |
+| mr gen       | `mr-volume-generation`          | Text-to-3D-MR volume generation from a report prompt        |
 
 MR input differs from CT: `/input` holds **one un-extracted zip per study**
 (`<STUDY>/{img,atlas,seg}/*.nii.gz` — native + MNI152-atlas-registered series
