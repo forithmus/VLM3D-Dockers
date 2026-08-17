@@ -1,0 +1,82 @@
+# =============================================================================
+# MR-RATE MRI Preprocessing Pipeline — Batch Configuration
+# Batch: batch00
+#
+# Used by:
+#   python run/run_mri_preprocessing.py --config run/configs/mri_batch00.yaml
+#   python run/run_mri_upload.py        --config run/configs/mri_batch00.yaml
+# =============================================================================
+
+batch_id: batch00
+log_dir:  logs/batch00
+verbose:  true
+
+
+# -----------------------------------------------------------------------------
+# run_mri_preprocessing.py
+# Steps: dcm2nii → pacs_metadata_filtering → series_classification
+#        → modality_filtering → brain_segmentation_and_defacing
+# -----------------------------------------------------------------------------
+
+# Step 1 — dcm2nii.py
+dcm2nii:
+  input_csv:   data/raw/batch00/batch00_dicom_folder_paths.csv
+  output_dir:  data/raw/batch00/batch00_raw_niftis
+  max_workers: 16
+
+# Step 2 — pacs_metadata_filtering.py
+pacs_metadata_filtering:
+  input_csv:  data/raw/batch00/batch00_pacs_metadata.csv
+  output_csv: data/interim/batch00/batch00_raw_metadata.csv
+
+# Step 3 — series_classification.py
+# (single source of truth - no value to set here)
+# input_csv is taken from pacs_metadata_filtering.output_csv by the runner
+# NOTE: The output paths are auto-derived by the script as:
+#         <stem>_classified.csv
+#         <stem>_classification_summary.csv
+series_classification: {}
+
+# Step 4 — modality_filtering.py
+# classified_csv is derived from pacs_metadata_filtering.output_csv by the runner.
+# raw_data_dir   is taken from dcm2nii.output_dir by the runner.
+modality_filtering:
+  output_json:  data/interim/batch00/batch00_modalities_to_process.json
+  output_csv:   data/interim/batch00/batch00_modalities_to_process_metadata.csv
+  num_processes: 4
+
+# Step 5 — brain_segmentation_and_defacing.py
+# modalities_json is taken from modality_filtering.output_json by the runner.
+# raw_dir         is taken from dcm2nii.output_dir by the runner.
+brain_segmentation:
+  output_dir: data/processed/batch00
+  device: "0"   # comma-separated GPU IDs (e.g. "0,1") or "cpu"
+
+
+# -----------------------------------------------------------------------------
+# run_mri_upload.py
+# Steps: zip_and_upload → prepare_metadata
+# input_dir / modalities_json / input_csv are taken from the preprocessing
+# sections above so they remain a single source of truth.
+# -----------------------------------------------------------------------------
+
+# Step 6 — zip_and_upload.py
+zip_and_upload:
+  output_dir:      data/processed
+  repo_id:         your-org/mr-rate-dataset
+  num_zip_workers: 8
+  num_hf_workers:  16
+  skip_upload:     false
+  delete_zips:     false
+  hf_timeout:      120   # seconds
+  xet_high_perf:   true
+
+# Step 7 — prepare_metadata.py
+prepare_metadata:
+  patient_mapping_csv: data/raw/batch00/batch00_accession_to_anon_patient.xlsx
+  study_date_mapping:  data/raw/batch00/batch00_accession_to_anon_study_date.xlsx
+  output_csv:          data/processed/batch00_metadata.csv
+  repo_id:             your-org/mr-rate-dataset
+  skip_upload:         false
+  num_hf_workers:      4
+  hf_timeout:          120   # seconds

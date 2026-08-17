@@ -16,6 +16,18 @@ Active tracks:
 | reportgen   | `reportgen` | Free-text radiology report generation from a CT volume |
 | ctgen       | `ctgen`     | Text-to-3D-CT volume generation                       |
 
+MR-RATE tracks (brain MRI, under `mr_challenges/`):
+
+| Track        | Platform slug                   | Task                                                        |
+| ------------ | ------------------------------- | ----------------------------------------------------------- |
+| mr abnclass  | `mr-abnormality-classification` | 32-label brain MRI abnormality classification               |
+| mr reportgen | `mr-report-generation`          | Free-text radiology report generation from a brain MR study |
+
+MR input differs from CT: `/input` holds **one un-extracted zip per study**
+(`<STUDY>/{img,atlas,seg}/*.nii.gz` — native + MNI152-atlas-registered series
++ masks). See the `mr_challenges/*/README.md` files for the zip contract and
+the lazy-extraction pattern the baselines use.
+
 Deprecated (kept under `deprecated_challenges/` for reference only — not accepted by the platform):
 
 * `abnloc` — CT abnormality localization.

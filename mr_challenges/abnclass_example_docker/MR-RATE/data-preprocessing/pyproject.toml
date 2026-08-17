@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mr-rate-preprocessing"
+version = "0.1.0"
+description = "Preprocessing pipeline for the MR-RATE dataset: mri, reports and metadata"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mr_rate_preprocessing"]

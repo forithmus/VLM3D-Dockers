@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+coverage.xml
+*.egg
+.pytest_cache/
+*.out
+wandb/
+
+# data-preprocessing: ignore data directory contents, keep placeholder files
+data-preprocessing/data/*
+!data-preprocessing/data/raw/.gitkeep
+!data-preprocessing/data/interim/.gitkeep
+!data-preprocessing/data/processed/.gitkeep
+
+# data-preprocessing: ignore log files, keep placeholder
+data-preprocessing/logs/*
+!data-preprocessing/logs/.gitkeep
+
+# Medical imaging files
+*.nii
+*.nii.gz
+*.dcm
+
+# Log files
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+runs/
